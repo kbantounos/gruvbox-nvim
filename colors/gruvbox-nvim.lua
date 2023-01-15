@@ -1,1 +1,1 @@
-require("gruvbox").load()
+require("gruvbox-nvim").load()

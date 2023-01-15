@@ -92,9 +92,9 @@ local function set_terminal_colors(colors)
 end
 
 groups.setup = function()
-  local config = require("gruvbox").config
+  local config = require("gruvbox-nvim").config
 
-  local palette = require("gruvbox.palette")
+  local palette = require("gruvbox-nvim.palette")
   for k, v in pairs(config.palette_overrides) do
     palette[k] = v
   end
